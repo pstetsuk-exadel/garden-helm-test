@@ -1,0 +1,11 @@
+kind: Module
+type: helm
+name: chart1
+base: base-chart
+
+values:
+  addPorts:
+    - port: 443
+      targetPort: https
+      protocol: TCP
+      name: https

@@ -1,0 +1,7 @@
+kind: Module
+type: helm
+name: chart2
+base: base-chart
+
+dependencies:
+  - chart1
